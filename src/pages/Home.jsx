@@ -19,10 +19,11 @@ import ServiceList from '../components/Services/ServiceList';
 import DoctorList from '../components/Doctors/DoctorList';
 import FaqList from '../components/Faq/FaqList';
 import Testimonial from '../components/Testimonial/Testimonial';
+import PageTransition from '../components/PageTransition/PageTransition';
 
 const Home = () => {
   return <>
-  
+  <PageTransition>
   {/* hero section */}
   <section className="hero__section pt-[60px] 2xl:h-[800px]">
     <div className="container">
@@ -279,7 +280,7 @@ const Home = () => {
     </div>
   </section>
   {/* testimonial section end */}
-
+  </PageTransition>
   </>
 };
 

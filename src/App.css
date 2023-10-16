@@ -18,7 +18,8 @@ body {
   background: #fff !important;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active,
+.clicked{
   background: #0067ff !important;
   border: none !important;
 }
@@ -27,7 +28,8 @@ body {
   padding-bottom: 70px !important;
 }
 
-.swiper-slide.swiper-slide-next{
+.swiper-slide.swiper-slide-next,
+.clicked{
   background: #0067ff;
   border-radius: 12px;
   box-shadow: 0px 20px 70px rgba(0, 103, 255, 0.3) !important;
