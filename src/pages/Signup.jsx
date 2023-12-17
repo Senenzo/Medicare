@@ -113,10 +113,10 @@ const Signup = () => {
                     onChange={handleInputChange}
                     className="text-textColor font-semibold text-[15px] leading-7 px-4 py-3 focus:outline-none"
                   >
-                    <option value="patient">Select</option>
-                    <option value="patient">Male</option>
-                    <option value="doctor">Female</option>
-                    <option value="doctor">Other</option>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
                   </select>
                 </label>
               </div>
