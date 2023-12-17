@@ -23,7 +23,7 @@ const MyAccount = () => {
           </div>
           <div className="text-center mt-4">
             <h3 className="text-[18px] leading-[30px] text-headingColor font-bold">
-              Muhibur Rahman
+              John Doe
             </h3>
             <p className="text-textColor text-[15px] leading-6 font-medium">
               example@gmail.com

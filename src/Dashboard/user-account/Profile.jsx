@@ -34,7 +34,7 @@ const Profile = () => {
         <div className="mb-5">
           <input
             type="text"
-            placeholder="Muhibur Rahman"
+            placeholder="John Doe"
             name="name"
             value={formData.name}
             onChange={handleInputChange}
